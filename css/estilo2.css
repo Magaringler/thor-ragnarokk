@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #b51408;
+}
+
+main{
+	width: 940px;
+	height: 700px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 940px;
+	height: 70px;
+	background-color: #0c4510;
+}
+
+article{
+	width: 940px;
+	height: 560px;
+	background-image: url("../img/formulario.jpg");
+}
+
+footer{
+	width: 940px;
+	height: 70px;
+	background-color: #0c4510;
+	vertical-align: auto;
+}
+
+.logothor{
+	padding-left: 32px;
+}
+
+.menu{
+	float: right;
+}
+	a{
+		text-decoration: none;
+		color: inherit;
+		font-size: 14px;
+		text-align: right;
+	}
+
+	li{
+		display:inline-block;
+		width:80px;
+		padding:6px 15px;
+		background-color:#000;
+		border:2px solid #fcef09;
+		text-align:center;
+		color:#fcef09;
+		float: right;
+		margin-right: 25px;
+		margin-top: 18px;
+	}
+
+	li:hover{
+		background-color:#fcef09;
+		color:#000;
+		border:2px solid #fcef09;
+	}
+
+.logo{
+	padding-left: 32px;
+}
+
+.nombre{
+	float: right;
+	margin-right: 32px;
+}
+	h2{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 20px;
+			color: #fcef09
+		}
+
+form{
+	width: 350px;
+	padding: 5px;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fcef09;
+	font-size: 14px;
+}
+
+.titulo{
+    padding-left: 442px;
+  }
+
+.largo{
+	width:100%;
+}
+
+.texto{
+	font-size: 14px;
+}
+
+.btn{
+	width:45%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	border:2px solid #fcef09;
+	text-align:center;
+	color:#fcef09;
+	padding:6px 15px;
+	background-color:#000;
+	text-align:center;
+	color:#fcef09;
+}
